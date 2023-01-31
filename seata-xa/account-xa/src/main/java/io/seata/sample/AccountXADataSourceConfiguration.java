@@ -39,5 +39,4 @@ public class AccountXADataSourceConfiguration {
     public PlatformTransactionManager txManager(DataSource dataSourceProxy) {
         return new DataSourceTransactionManager(dataSourceProxy);
     }
-
 }
